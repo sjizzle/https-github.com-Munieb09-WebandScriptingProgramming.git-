@@ -1,0 +1,139 @@
+@media only screen
+and (min-width:481px) and (max-width:960px) {
+
+
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background: blueviolet;
+	background: -webkit-linear-gradient(top, blue 0%, purple 100%);
+	background: -webkit-linear-gradient(top, blue 0%, purple 100%);
+	background: -o-linear-gradient(top, blue 0%, purple 100%);
+	background: linear-gradient(to bottom, blue 0%, purple 100%);
+
+}
+
+h1 {
+	font-family: 'Bungee Spice', cursive;
+}
+
+#containment {
+	width: 100%;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: yellow;
+
+}
+
+#header {
+	height: 80px;
+	background-color: yellow;
+	text-align: left;
+}
+
+#contents {
+	float: none;
+	height: 800px;
+	background-color: skyblue;
+}
+
+#navigate {
+	float: none;
+	height: 100px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+#nature {
+	float: right;
+	margin: 20px;
+}
+
+#anime {
+	float: left;
+	opacity: .9;
+	border-radius: 75%;
+	border: 1px;
+
+}
+
+#cartoon {
+	float: left;
+	opacity: .9;
+	border-radius: 75%;
+	border: 1px;
+
+}
+
+
+#footer {
+	height: 80px;
+	background-color: yellow;
+	
+}
+
+#me {
+	text-align: left;
+	padding: 15px;
+}
+
+#myButton {
+	color: blueviolet;
+
+}
+
+p {
+	padding: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+
+	text-align: center;
+	font-family: 'Calligraffitti', cursive;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+	margin: 20px;
+}
+address {
+	text-align: left;
+}
+
+aside {
+	float: left;
+}
+
+a:hover {
+	color: red;
+}
+
+#button1:hover {
+	color: blue;
+}
+
+#button2:hover {
+	color: blueviolet;
+}
+
+video {
+	width: 200px;
+	height: 350px;
+}
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+video.myVid {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}

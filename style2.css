@@ -1,0 +1,151 @@
+@media only screen
+and (max-width : 480px) {
+
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background: blueviolet;
+	background: -webkit-linear-gradient(top, blue 0%, purple 100%);
+	background: -webkit-linear-gradient(top, blue 0%, purple 100%);
+	background: -o-linear-gradient(top, blue 0%, purple 100%);
+	background: linear-gradient(to bottom, blue 0%, purple 100%);
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Bungee Spice', cursive;
+}
+
+#containment {
+	width: 100%;
+	background-color: yellow;
+
+}
+
+#header {
+	height: 100px;
+	background-color: yellow;
+	text-align: left;
+}
+
+#contents {
+	width: 100%;
+	float: none;
+	height: 600px;
+	background-color: lightskyblue;
+}
+
+#navigate {
+	float: none;
+	display: block;
+	width: 100%;
+	background-color: lightblue;
+	text-align: center;
+}
+
+#nature {
+	float: right;
+	margin: 20px;
+}
+
+#nature1 {
+	float: right;
+	margin: 20px;
+}
+
+#anime {
+	float: left;
+	margin: ;
+	opacity: .5;
+	border-radius: 75%;
+	border: 1px;
+
+}
+
+#cartoon {
+	float: left;
+	opacity: .7;
+	border-radius: 75%;
+	border: 1px;
+
+}
+
+
+#footer {
+	height: 80px;
+	background-color: yellow;
+	
+}
+
+#me {
+	text-align: left;
+	padding: 15px;
+}
+
+#myButton {
+	color: blueviolet;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+p {
+	padding: 15px;
+}
+
+form {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5{
+	margin: auto;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive;
+
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+}
+address {
+	text-align: left;
+}
+
+
+a:hover {
+	color: red;
+}
+
+#button1:hover {
+	color: blue;
+}
+
+#button2:hover {
+	color: blueviolet;
+}
+
+video {
+
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+video.myVid {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}

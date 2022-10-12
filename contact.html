@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css" media="only screen and (max-width:960px)">
+	<link href="style1.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+	<link href="style2.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+<body>
+<!-- div holding all the code -->
+<div id="containment">
+<img id="anime" src="anime.jpg" width="100" alt="my anime">
+	<!-- Header  -->
+	<header id="header">
+		<h1>Sean J. Website</h1>
+
+		
+	</header>
+	<!-- Navigation for links-->
+	<nav id="navigate">
+		<h3>Navigation</h3>
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="AboutMe.html">About Me</a></li>
+			<li><a href="project.html">Project</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+
+			<li>
+		</ul>
+	</nav>
+
+<!-- Div Contents holds the form -->
+<div id="contents">
+		<h2>Contact</h2>
+
+		<form action="mailto:sean.jackson@ontariotechu.net" method="post" enctype="text/plain" name="form">
+			<p>
+				<label for="Name">Name</label>
+				<input id="Name" type="text" placeholder="Enter Your Name: " name="name" required>
+			</p>
+
+			<p>
+				<label for="email">Email</label>
+				<input id="email" type="text" placeholder="Enter Your Email: " name="email" required>
+			</p>
+
+			<p>
+				<label for="number">Number</label>
+				<input id="number" type="number" placeholder="Enter Your Phone Number: " name="number">
+			</p>
+
+			<p>
+				<label for="comments">Comments</label><br>
+				<textarea name="comments" id="comments" rows="4" cols="30"></textarea>
+			</p>
+
+
+			<p><input id="button1" type="submit" value="Submit"></p>
+
+			<p><input type="reset" value="Reset"></p>
+
+
+		
+		</form>
+
+
+</div>
+<!-- Footer code, address, and email link-->
+<footer id="footer">
+
+	<address>
+	<p><img id="cartoon" src="cartoon.jpg" width="40" alt="my anime">Contact at: <a href="mailto:sean.jackson@ontariotechu.net">sean.jackson@ontariotechu.net</a><br> © by S.J.</p>
+	</address>
+</footer>
+</div>
+
+</body>
+</html>

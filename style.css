@@ -1,0 +1,120 @@
+@media only screen
+and (min-width:960px){
+	
+
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background: blueviolet;
+	background: -moz-linear-gradient(top, blue 0%, purple 100%);
+	background: -webkit-linear-gradient(top, blue 0%, purple 100%);
+	background: -o-linear-gradient(top, blue 0%, purple 100%);
+	background: linear-gradient(to bottom, blue 0%, purple 100%);
+
+}
+
+h1 {
+	font-family: 'Calligraffitti', cursive;
+}
+
+#containment {
+	width: 960px;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: yellow;
+
+}
+
+#header {
+	height: 120px;
+	background-color: yellow;
+	text-align: left;
+}
+
+#contents {
+	float: right;
+	height: 600px;
+	width: 660px;
+	background-color: skyblue;
+}
+
+#navigate {
+	float: left;
+	height: 600px;
+	width: 300px;
+	background-color: lightblue;
+	border: 1px;
+}
+
+#nature {
+	float: right;
+	margin: 20px;
+}
+
+#anime {
+	float: left;
+	opacity: .7;
+	border-radius: 75%;
+
+}
+
+#cartoon {
+	float: left;
+	opacity: .7;
+	border-radius: 75%;
+	border: 1px;
+
+}
+
+#footer {
+	height: 80px;
+	background-color: yellow;
+	
+}
+
+#me {
+	padding: 15px;
+}
+
+p {
+	padding: 15px;
+}
+
+h1, h2, h3, h4, h5{
+	margin: auto;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive;
+
+}
+
+li {
+	list-style-type: none;
+}
+
+a:hover {
+	color: red;
+}
+
+#button1:hover {
+	color: blue;
+}
+
+#button2:hover {
+	color: blueviolet;
+}
+
+button {
+	text-align: center;
+}
+
+video {
+	width: 200px;
+	height: 350px;
+}
+
+video.myVid {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
